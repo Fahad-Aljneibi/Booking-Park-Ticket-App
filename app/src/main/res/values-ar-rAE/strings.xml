@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Park Ticket</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">إنشاء حساب</string>
+    <string name="signup">إنشاء حساب</string>
+    <string name="user_name">الاسم المستعار *</string>
+    <string name="email">ايميل*</string>
+    <string name="password">كلمة السر*</string>
+    <string name="remember_password">تذكر كلمة السر</string>
+    <string name="don_t_have_any_account_yet">ليس لديك حساب ؟</string>
+    <string name="booking">حجز</string>
+    <string name="description">الوصف...</string>
+    <string name="sharjah_desert_park">حديقة الصحراء الشارقة</string>
+    <string name="sharjah_national_park">منتزة الوطني الشارقة</string>
+    <string name="al_montazah_parks">حديقة المنتزة</string>
+    <string name="al_majaz_splash_park">حديقة المجاز</string>
+    <string name="open_24_hours">مفتوح 24 ساعة</string>
+    <string name="usrename">"اسم المستخدم "</string>
+    <string name="already_have_an_account">هل لديك حساب مسبقا؟</string>
+    <string name="sgin_in">تسجيل الدخول</string>
+    <string name="welcome">\"مرحبا\"</string>
+    <string name="see_location">موقعه فالخريطة</string>
+    <string name="number_of_ticket">عدد تذاكر:</string>
+    <string name="price_of_ticket">سعر تذكرة</string>
+    <string name="discount">خصم</string>
+    <string name="tax">ضريبة</string>
+    <string name="total_amount">سعر الاجمالي</string>
+    <string name="confirm">تأكيد</string>
+    <string name="booking_number">رقم الحجز</string>
+    <string name="back_to_home">العودة إلى الصفحة الرئيسية</string>
+    <string name="congratulations">مبروووك!!!</string>
+    <string name="your_booking_has_been_successfuly">لقد تم الحجز بنجاح</string>
+</resources>

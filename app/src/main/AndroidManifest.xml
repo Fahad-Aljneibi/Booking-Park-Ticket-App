@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fahadcoder.p11">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconparkticket"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconparkticket"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name="com.fahadcoder.p11.View.ForAdmin.AdminUpdateBooking"></activity>
+        <activity android:name="com.fahadcoder.p11.View.ForAdmin.AllBooking" />
+        <activity android:name="com.fahadcoder.p11.DAO.AdminBooking" >
+
+        </activity>
+        <activity android:name="com.fahadcoder.p11.View.ForAdmin.AdminUpdateMember" />
+        <activity android:name="com.fahadcoder.p11.DAO.AdminMember" >
+
+        </activity>
+        <activity android:name="com.fahadcoder.p11.View.ForMembers.Congratulation" />
+        <activity android:name="com.fahadcoder.p11.View.ForMembers.ConfirmPrice" />
+        <activity android:name="com.fahadcoder.p11.View.ForMembers.Booking" />
+        <activity android:name="com.fahadcoder.p11.View.ForAdmin.AllMember" >
+
+        </activity>
+        <activity android:name="com.fahadcoder.p11.View.ForAdmin.AdminHome" >
+
+        </activity>
+        <activity android:name="com.fahadcoder.p11.View.SingUp" >
+
+        </activity>
+        <activity android:name="com.fahadcoder.p11.View.Login" >
+
+        </activity>
+        <activity android:name="com.fahadcoder.p11.View.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.fahadcoder.p11.View.ForMembers.Home" >
+
+        </activity>
+        <activity android:name="com.fahadcoder.p11.View.MainActivity" >
+
+        </activity>
+    </application>
+
+</manifest>

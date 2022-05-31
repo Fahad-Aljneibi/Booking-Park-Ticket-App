@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkcongratulation"
+    android:orientation="vertical"
+    tools:context=".View.ForMembers.Congratulation">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green_p">
+
+
+
+        <TextView
+            android:id="@+id/txv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/icon_user"
+            android:paddingTop="15dp"
+            android:text="Usrename"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/icon_user"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fream"
+            android:src="@drawable/ic_baseline_person_24" />
+
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+        <TextView
+            android:id="@+id/txv_bknum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="228dp"
+            android:layout_marginLeft="228dp"
+            android:layout_marginTop="16dp"
+            android:text="1"
+            android:textColor="@color/green_p"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="286dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="62dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="63dp"
+            android:layout_marginRight="63dp"
+            android:background="@drawable/btnadd"
+            android:onClick="BackToHome"
+            android:text="@string/back_to_home"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="68dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="481dp"
+            android:text="@string/booking_number"
+            android:textColor="@color/green_p"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginRight="72dp"
+            android:gravity="center"
+            android:text="@string/your_booking_has_been_successfuly"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="113dp"
+            android:layout_marginLeft="113dp"
+            android:layout_marginTop="391dp"
+            android:layout_marginEnd="113dp"
+            android:layout_marginRight="113dp"
+            android:text="@string/congratulations"
+            android:textColor="@color/green_p"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

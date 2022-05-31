@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.ForAdmin.AdminHome">
+
+    <RelativeLayout
+        android:background="@color/green_p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/icon_user"
+            android:paddingTop="15dp"
+            android:text="Admin"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/icon_user"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fream"
+            android:src="@drawable/ic_baseline_person_24" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="58dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:onClick="exitApp"
+            app:srcCompat="@drawable/ic_baseline_exit_to_app_24"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </RelativeLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="215dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="98dp"
+            android:layout_marginLeft="98dp"
+            android:layout_marginTop="188dp"
+            android:layout_marginEnd="98dp"
+            android:layout_marginRight="98dp"
+            android:background="@drawable/btnadd"
+            android:onClick="member"
+            android:text="Member"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="215dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="101dp"
+            android:layout_marginLeft="101dp"
+            android:layout_marginTop="132dp"
+            android:layout_marginEnd="96dp"
+            android:layout_marginRight="96dp"
+            android:background="@drawable/btnadd"
+            android:onClick="booking"
+            android:text="Booking"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

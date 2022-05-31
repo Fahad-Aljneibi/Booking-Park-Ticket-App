@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "666968636577",
+    "project_id": "dbpark1-d97e9",
+    "storage_bucket": "dbpark1-d97e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666968636577:android:d3c95a5d91558f7b1f44e0",
+        "android_client_info": {
+          "package_name": "com.fahadcoder.p11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666968636577-kjpitkrr1qdkuivv4sf1ejd51j0i4ck1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDxtOKkDkHjOCj3mvEALfEvPiqdWIQTZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666968636577-kjpitkrr1qdkuivv4sf1ejd51j0i4ck1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

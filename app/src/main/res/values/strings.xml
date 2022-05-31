@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Park Ticket</string>
+
+    <string name="welcome">Welcome</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <string name="signup">signup</string>
+    <string name="user_name">User Name*</string>
+    <string name="email">Email*</string>
+    <string name="password">Password*</string>
+    <string name="remember_password">Remember Password</string>
+    <string name="don_t_have_any_account_yet">Don’t have any account yet?</string>
+
+    <string name="booking">Booking</string>
+    <string name="description">Description...</string>
+    <string name="sharjah_desert_park">Sharjah Desert Park</string>
+    <string name="sharjah_national_park">Sharjah National Park</string>
+    <string name="al_montazah_parks">Al Montazah Parks</string>
+    <string name="al_majaz_splash_park">Al Majaz Splash Park</string>
+    <string name="open_24_hours">Open 24 hours</string>
+    <string name="usrename">Usrename</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sgin_in">sgin in</string>
+    <string name="see_location">see location...</string>
+    <string name="number_of_ticket">Number of ticket :</string>
+    <string name="price_of_ticket">Price of Ticket</string>
+    <string name="discount">Discount</string>
+    <string name="tax">Tax</string>
+    <string name="total_amount">Total Amount:</string>
+    <string name="confirm">Confirm</string>
+    <string name="booking_number">Booking Number:</string>
+    <string name="back_to_home">Back To Home</string>
+    <string name="congratulations">Congratulations!!</string>
+    <string name="your_booking_has_been_successfuly">Your booking has been successfuly</string>
+
+
+</resources>

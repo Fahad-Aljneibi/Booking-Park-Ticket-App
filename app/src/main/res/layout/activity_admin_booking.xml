@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.ForAdmin.AdminHome">
+
+    <RelativeLayout
+        android:background="@color/green_p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/icon_user"
+            android:paddingTop="15dp"
+            android:text="Admin"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/icon_user"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fream"
+            android:src="@drawable/ic_baseline_person_24" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="74dp"
+            android:layout_height="65dp"
+            android:layout_alignParentLeft="true"
+            android:onClick="Back"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+            tools:ignore="OnClick,VectorDrawableCompat" />
+
+
+    </RelativeLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/edt_bknum"
+            android:layout_width="280dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="104dp"
+            android:ems="10"
+            android:hint="Booking Number"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="315dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="51dp"
+            android:background="@drawable/btnadd"
+            android:onClick="find"
+            android:text="find"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_bknum"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="315dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="39dp"
+            android:background="@drawable/btnadd"
+            android:onClick="deleteBookingByBkNum"
+            android:text=" delete"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button10"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="315dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="124dp"
+            android:background="@drawable/btnadd"
+            android:onClick="getAllBooking"
+            android:text="show all Booking"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button8"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="315dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="29dp"
+            android:background="@drawable/btnadd"
+            android:onClick="updateBookingByBknum"
+            android:text="update"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button5"
+            tools:ignore="OnClick" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
